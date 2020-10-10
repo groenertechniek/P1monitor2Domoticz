@@ -26,7 +26,7 @@ domoticz_updateDevice(Electricity_idx, '' , Utility_Electricity)
 domoticz_updateDevice(Gas_idx, '' , Utility_Gas)
 
 --Print to log
---Uncomment for debugging.
+--Uncomment for debugging
 
 print(Electricity_idx, '' , Utility_Electricity)
 print(Gas_idx, '' , Utility_Gas)
