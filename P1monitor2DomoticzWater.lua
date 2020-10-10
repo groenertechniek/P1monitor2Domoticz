@@ -23,6 +23,6 @@ local Utility_Water = domoticz_applyJsonPath(s_clean,'.WATERMETER_CONSUMPTION_LI
 domoticz_updateDevice(Water_idx, '' , Utility_Water)
 
 --Print to log
---Uncomment for debugging.
+--Uncomment for debugging
 
 print(Water_idx, '' , Utility_Water)
